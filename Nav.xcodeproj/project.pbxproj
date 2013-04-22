@@ -27,6 +27,7 @@
 		A432333217252E41009D3F8E /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A432332A17252E41009D3F8E /* moveMeIcon.png */; };
 		A432333317252E41009D3F8E /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A432332B17252E41009D3F8E /* rowControlsIcon.png */; };
 		A432333617253226009D3F8E /* BIDDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */; };
+		A4FAAAB81725737A00686CB5 /* BIDDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		A432332B17252E41009D3F8E /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
 		A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonViewController.h; sourceTree = "<group>"; };
 		A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonViewController.m; sourceTree = "<group>"; };
+		A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailViewController.h; sourceTree = "<group>"; };
+		A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				A432332517252E41009D3F8E /* button_up.png */,
 				A432332617252E41009D3F8E /* checkmarkControllerIcon.png */,
 				A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */,
+				A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */,
+				A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */,
 				A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */,
 				A432332717252E41009D3F8E /* deleteMeIcon.png */,
 				A432332817252E41009D3F8E /* detailEditIcon.png */,
@@ -225,6 +230,7 @@
 				A432331F1724E1CC009D3F8E /* BIDFirstLevelViewController.m in Sources */,
 				A432332217250C48009D3F8E /* BIDSecondLevelViewController.m in Sources */,
 				A432333617253226009D3F8E /* BIDDisclosureButtonViewController.m in Sources */,
+				A4FAAAB81725737A00686CB5 /* BIDDisclosureDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +345,7 @@
 				A432331C1724DBB6009D3F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
