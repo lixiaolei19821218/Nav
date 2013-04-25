@@ -7,7 +7,10 @@
 //
 
 #import "BIDSecondLevelViewController.h"
+#import "BIDPresidentDetailViewController.h"
 
-@interface BIDPresidentsViewController : BIDSecondLevelViewController
+@interface BIDPresidentsViewController : BIDSecondLevelViewController <BIDPresidentDetailViewControllerDelegate>
+
+@property (strong, nonatomic) NSMutableArray *presidents;
 
 @end

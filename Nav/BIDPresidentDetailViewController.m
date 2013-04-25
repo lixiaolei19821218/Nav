@@ -1,4 +1,4 @@
-//
+ //
 //  BIDPresidentDetailViewController.m
 //  Nav
 //
@@ -44,7 +44,13 @@
 
 - (void)textFieldDone:(id)sender
 {
-    [sender resignFirstResponder];
+    //[sender resignFirstResponder];
+    UITextField *senderField = sender;
+    NSInteger nextRow = (senderField.superview.tag + 1) % kNumberOfEditableRows;
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:nextRow inSection:0];
+    UITableViewCell *nextCell = [self.tableView cellForRowAtIndexPath:indexPath];
+    UITextField *nextField = (id)[nextCell viewWithTag:kTextFieldTag];
+    [nextField becomeFirstResponder];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -102,7 +108,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc]
@@ -119,7 +125,7 @@
         textField.tag = kTextFieldTag;
         textField.clearsOnBeginEditing = NO;
         textField.delegate = self;
-        textField.returnKeyType = UIReturnKeyDone;
+        //textField.returnKeyType = UIReturnKeyDone;
         [textField addTarget:self
                       action:@selector(textFieldDone:)
             forControlEvents:UIControlEventEditingDidEndOnExit];
@@ -146,6 +152,34 @@
             break;
     }
     return cell;
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    initialText = textField.text;
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    if (![textField.text isEqualToString:initialText]) {
+        hasChanges = YES;
+        switch (textField.superview.tag) {
+            case kNameRowIndex:
+                self.president.name = textField.text;
+                break;
+            case kFromYearRowIndex:
+                self.president.fromYear = textField.text;
+                break;
+            case kToYearRowIndex:
+                self.president.toYear = textField.text;
+                break;
+            case kPartyIndex:
+                self.president.party = textField.text;
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 /*

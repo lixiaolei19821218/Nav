@@ -3,7 +3,23 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[BIDPresidentsViewController tableView:numberOfRowsInSection:]:BIDPresidentsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.presidents count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[BIDRowControlsViewController tableView:cellForRowAtIndexPath:]:BIDRowControlsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BIDPresidentsViewController initWithNibName:bundle:]:BIDPresidentsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presidents">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>
