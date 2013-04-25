@@ -8,6 +8,11 @@
 
 #import "BIDFirstLevelViewController.h"
 #import "BIDSecondLevelViewController.h"
+#import "BIDDisclosureButtonViewController.h"
+#import "BIDCheckListViewController.h"
+#import "BIDRowControlsViewController.h"
+#import "BIDMoveMeViewController.h"
+#import "BIDDeleteMeViewController.h"
 
 static NSString *CellIdentifier = @"Cell";
 
@@ -19,7 +24,13 @@ static NSString *CellIdentifier = @"Cell";
     if (self) {
         // Custom initialization
         self.title = @"First level";
-        self.controllers = @[];
+        self.controllers = @[
+                             [[BIDDisclosureButtonViewController alloc] init],
+                             [[BIDCheckListViewController alloc] init],
+                             [[BIDRowControlsViewController alloc] init],
+                             [[BIDMoveMeViewController alloc] init],
+                             [[BIDDeleteMeViewController alloc] init]                             
+                             ];
     }
     return self;
 }
@@ -66,7 +77,7 @@ static NSString *CellIdentifier = @"Cell";
     // Configure the cell...
     BIDSecondLevelViewController *controller = self.controllers[indexPath.row];
     cell.textLabel.text = controller.title;
-    cell.imageView.image = controller.rowIamge;
+    cell.imageView.image = controller.rowImage;
     
     return cell;
 }

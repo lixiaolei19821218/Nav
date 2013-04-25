@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40CD6C717266E5B006FB5BA /* BIDCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40CD6C617266E5B006FB5BA /* BIDCheckListViewController.m */; };
+		A40CD6CA17267B5C006FB5BA /* BIDRowControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40CD6C917267B5C006FB5BA /* BIDRowControlsViewController.m */; };
+		A41F1B2A172909AF003A5C12 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = A41F1B28172909AF003A5C12 /* computers.plist */; };
+		A41F1B2B172909AF003A5C12 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = A41F1B29172909AF003A5C12 /* Presidents.plist */; };
+		A41F1B2E17290A18003A5C12 /* BIDDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41F1B2D17290A18003A5C12 /* BIDDeleteMeViewController.m */; };
+		A41F1B3117291885003A5C12 /* BIDPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = A41F1B3017291885003A5C12 /* BIDPresident.m */; };
+		A41F1B3417291B77003A5C12 /* BIDPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41F1B3317291B77003A5C12 /* BIDPresidentsViewController.m */; };
+		A41F1B3717291BC2003A5C12 /* BIDPresidentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41F1B3617291BC2003A5C12 /* BIDPresidentDetailViewController.m */; };
+		A41FB141172776E6003E0D56 /* BIDMoveMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41FB140172776E6003E0D56 /* BIDMoveMeViewController.m */; };
 		A43233011724DBB6009D3F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43233001724DBB6009D3F8E /* UIKit.framework */; };
 		A43233031724DBB6009D3F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43233021724DBB6009D3F8E /* Foundation.framework */; };
 		A43233051724DBB6009D3F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43233041724DBB6009D3F8E /* CoreGraphics.framework */; };
@@ -31,6 +40,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40CD6C517266E5B006FB5BA /* BIDCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckListViewController.h; sourceTree = "<group>"; };
+		A40CD6C617266E5B006FB5BA /* BIDCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListViewController.m; sourceTree = "<group>"; };
+		A40CD6C817267B5C006FB5BA /* BIDRowControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsViewController.h; sourceTree = "<group>"; };
+		A40CD6C917267B5C006FB5BA /* BIDRowControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsViewController.m; sourceTree = "<group>"; };
+		A41F1B28172909AF003A5C12 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		A41F1B29172909AF003A5C12 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		A41F1B2C17290A18003A5C12 /* BIDDeleteMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDeleteMeViewController.h; path = ../BIDDeleteMeViewController.h; sourceTree = "<group>"; };
+		A41F1B2D17290A18003A5C12 /* BIDDeleteMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDeleteMeViewController.m; path = ../BIDDeleteMeViewController.m; sourceTree = "<group>"; };
+		A41F1B2F17291885003A5C12 /* BIDPresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresident.h; sourceTree = "<group>"; };
+		A41F1B3017291885003A5C12 /* BIDPresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresident.m; sourceTree = "<group>"; };
+		A41F1B3217291B77003A5C12 /* BIDPresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresidentsViewController.h; sourceTree = "<group>"; };
+		A41F1B3317291B77003A5C12 /* BIDPresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentsViewController.m; sourceTree = "<group>"; };
+		A41F1B3517291BC1003A5C12 /* BIDPresidentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresidentDetailViewController.h; sourceTree = "<group>"; };
+		A41F1B3617291BC2003A5C12 /* BIDPresidentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentDetailViewController.m; sourceTree = "<group>"; };
+		A41FB13F172776E6003E0D56 /* BIDMoveMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDMoveMeViewController.h; path = ../BIDMoveMeViewController.h; sourceTree = "<group>"; };
+		A41FB140172776E6003E0D56 /* BIDMoveMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMoveMeViewController.m; path = ../BIDMoveMeViewController.m; sourceTree = "<group>"; };
 		A43232FD1724DBB6009D3F8E /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43233001724DBB6009D3F8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A43233021724DBB6009D3F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,10 +81,10 @@
 		A432332917252E41009D3F8E /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
 		A432332A17252E41009D3F8E /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
 		A432332B17252E41009D3F8E /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
-		A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonViewController.h; sourceTree = "<group>"; };
-		A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonViewController.m; sourceTree = "<group>"; };
-		A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailViewController.h; sourceTree = "<group>"; };
-		A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
+		A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDisclosureButtonViewController.h; path = Images/BIDDisclosureButtonViewController.h; sourceTree = "<group>"; };
+		A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDisclosureButtonViewController.m; path = Images/BIDDisclosureButtonViewController.m; sourceTree = "<group>"; };
+		A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDisclosureDetailViewController.h; path = Images/BIDDisclosureDetailViewController.h; sourceTree = "<group>"; };
+		A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDisclosureDetailViewController.m; path = Images/BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +131,34 @@
 		A43233061724DBB6009D3F8E /* Nav */ = {
 			isa = PBXGroup;
 			children = (
-				A432332317252E41009D3F8E /* Images */,
+				A41F1B2C17290A18003A5C12 /* BIDDeleteMeViewController.h */,
+				A41F1B2D17290A18003A5C12 /* BIDDeleteMeViewController.m */,
+				A41F1B28172909AF003A5C12 /* computers.plist */,
+				A41F1B29172909AF003A5C12 /* Presidents.plist */,
+				A41FB13F172776E6003E0D56 /* BIDMoveMeViewController.h */,
+				A41FB140172776E6003E0D56 /* BIDMoveMeViewController.m */,
+				A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */,
+				A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */,
+				A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */,
+				A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */,
 				A432330F1724DBB6009D3F8E /* BIDAppDelegate.h */,
 				A432331D1724E1CC009D3F8E /* BIDFirstLevelViewController.h */,
 				A432331E1724E1CC009D3F8E /* BIDFirstLevelViewController.m */,
+				A40CD6C817267B5C006FB5BA /* BIDRowControlsViewController.h */,
+				A40CD6C917267B5C006FB5BA /* BIDRowControlsViewController.m */,
 				A43233101724DBB6009D3F8E /* BIDAppDelegate.m */,
 				A432332017250C48009D3F8E /* BIDSecondLevelViewController.h */,
 				A432332117250C48009D3F8E /* BIDSecondLevelViewController.m */,
+				A40CD6C517266E5B006FB5BA /* BIDCheckListViewController.h */,
+				A40CD6C617266E5B006FB5BA /* BIDCheckListViewController.m */,
 				A43233071724DBB6009D3F8E /* Supporting Files */,
+				A432332317252E41009D3F8E /* Images */,
+				A41F1B2F17291885003A5C12 /* BIDPresident.h */,
+				A41F1B3017291885003A5C12 /* BIDPresident.m */,
+				A41F1B3217291B77003A5C12 /* BIDPresidentsViewController.h */,
+				A41F1B3317291B77003A5C12 /* BIDPresidentsViewController.m */,
+				A41F1B3517291BC1003A5C12 /* BIDPresidentDetailViewController.h */,
+				A41F1B3617291BC2003A5C12 /* BIDPresidentDetailViewController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -138,10 +183,6 @@
 				A432332417252E41009D3F8E /* button_down.png */,
 				A432332517252E41009D3F8E /* button_up.png */,
 				A432332617252E41009D3F8E /* checkmarkControllerIcon.png */,
-				A432333417253226009D3F8E /* BIDDisclosureButtonViewController.h */,
-				A4FAAAB61725737A00686CB5 /* BIDDisclosureDetailViewController.h */,
-				A4FAAAB71725737A00686CB5 /* BIDDisclosureDetailViewController.m */,
-				A432333517253226009D3F8E /* BIDDisclosureButtonViewController.m */,
 				A432332717252E41009D3F8E /* deleteMeIcon.png */,
 				A432332817252E41009D3F8E /* detailEditIcon.png */,
 				A432332917252E41009D3F8E /* disclosureButtonControllerIcon.png */,
@@ -215,6 +256,8 @@
 				A432333117252E41009D3F8E /* disclosureButtonControllerIcon.png in Resources */,
 				A432333217252E41009D3F8E /* moveMeIcon.png in Resources */,
 				A432333317252E41009D3F8E /* rowControlsIcon.png in Resources */,
+				A41F1B2A172909AF003A5C12 /* computers.plist in Resources */,
+				A41F1B2B172909AF003A5C12 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +274,13 @@
 				A432332217250C48009D3F8E /* BIDSecondLevelViewController.m in Sources */,
 				A432333617253226009D3F8E /* BIDDisclosureButtonViewController.m in Sources */,
 				A4FAAAB81725737A00686CB5 /* BIDDisclosureDetailViewController.m in Sources */,
+				A40CD6C717266E5B006FB5BA /* BIDCheckListViewController.m in Sources */,
+				A40CD6CA17267B5C006FB5BA /* BIDRowControlsViewController.m in Sources */,
+				A41FB141172776E6003E0D56 /* BIDMoveMeViewController.m in Sources */,
+				A41F1B2E17290A18003A5C12 /* BIDDeleteMeViewController.m in Sources */,
+				A41F1B3117291885003A5C12 /* BIDPresident.m in Sources */,
+				A41F1B3417291B77003A5C12 /* BIDPresidentsViewController.m in Sources */,
+				A41F1B3717291BC2003A5C12 /* BIDPresidentDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
